@@ -31,8 +31,8 @@
         }
     },
     "frame.defaultDuration": 200,
-    "last.exportedFilePath": "/Users/bal7hazar/git/grimscape/assets",
-    "last.imagePath": "/Users/bal7hazar/git/grimscape/assets",
+    "last.exportedFilePath": "/Users/okhaimie/git/grim_defiance/assets",
+    "last.imagePath": "/Users/okhaimie/git/grim_defiance/assets",
     "map.height": 15,
     "map.lastUsedExportFilter": "Fichiers de carte JSON (*.tmj *.json)",
     "map.lastUsedFormat": "tmx",
@@ -43,7 +43,7 @@
         "tileset.tsx",
         "spawn.tmx"
     ],
-    "project": "grimscape.tiled-project",
+    "project": "grim_defiance.tiled-project",
     "recentFiles": [
         "spawn.tmx",
         "tileset.tsx"

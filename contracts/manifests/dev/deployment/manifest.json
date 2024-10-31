@@ -1,8 +1,8 @@
 {
   "world": {
     "kind": "WorldContract",
-    "class_hash": "0x5c4271c8cd454ceb8049d2b0724c99d12c2ef8077fc6ad325b18978f614aab0",
-    "original_class_hash": "0x5c4271c8cd454ceb8049d2b0724c99d12c2ef8077fc6ad325b18978f614aab0",
+    "class_hash": "0x6f38d5d9507c5d9546290e1a27e309efe5a9af3770b6cc1627db4a1b90a7dce",
+    "original_class_hash": "0x6f38d5d9507c5d9546290e1a27e309efe5a9af3770b6cc1627db4a1b90a7dce",
     "abi": [
       {
         "type": "impl",
@@ -1234,13 +1234,13 @@
         ]
       }
     ],
-    "address": "0x10b9d2ca458d2f895ecf89cf0213e532d9154fc3600c9e6bebe946ab96e74e2",
-    "transaction_hash": "0x17a4fcff82c9d91914c774e50430e18adcd4fdbbf3166e5da714548638cdc0e",
+    "address": "0x4a2bc9c24458c4f738d88d354d868ab00abfe4e503f66476670f25c86996e96",
+    "transaction_hash": "0x6528299c884b1b7a1b1c72c0ba7ff7430034b4fa52af099740ff00f5cf2da7a",
     "block_number": 3,
     "seed": "grimscape",
     "metadata": {
       "profile_name": "dev",
-      "rpc_url": "http://localhost:5050/"
+      "rpc_url": "https://api.cartridge.gg/x/gs/katana"
     },
     "manifest_name": "dojo-world"
   },
@@ -1255,9 +1255,9 @@
   "contracts": [
     {
       "kind": "DojoContract",
-      "address": "0x3f698291e7825fd6c9deb02e66109ee78c66a6b43266b66aeb58d9a2ddf3a9a",
-      "class_hash": "0x4c7f903437332be44f72932fd862b818a721f731bd7e43c5c8d4c336b8c84f9",
-      "original_class_hash": "0x4c7f903437332be44f72932fd862b818a721f731bd7e43c5c8d4c336b8c84f9",
+      "address": "0x5fb34804b83b16cd2d14908a4d69a7ad1d989adacbeb118098a306f707a5441",
+      "class_hash": "0x5f110d055c4d9578eb9131bb39aec9631dc6c07dd2cefb40db52496a361852b",
+      "original_class_hash": "0x5f110d055c4d9578eb9131bb39aec9631dc6c07dd2cefb40db52496a361852b",
       "base_class_hash": "0x2427dd10a58850ac9a5ca6ce04b7771b05330fd18f2e481831ad903b969e6b2",
       "abi": [
         {
@@ -1289,7 +1289,7 @@
           "items": [
             {
               "type": "function",
-              "name": "contract_name",
+              "name": "name",
               "inputs": [],
               "outputs": [
                 {
