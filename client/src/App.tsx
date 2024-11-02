@@ -6,6 +6,7 @@ import { useEvents } from "./hooks/useEvents";
 import { Header } from "./ui/containers/Header";
 import { ThemeProvider } from "./ui/elements/theme-provider";
 import { Overlay } from "./ui/modules/Overlay";
+import GameScreen from "./phaser/Game";
 
 function App() {
   const phaserRef = useRef(null);
@@ -15,9 +16,10 @@ function App() {
   return (
     <div id="app" className="flex flex-col items-center">
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-        <Header />
+        {/* <Header />
         <Overlay />
-        <PhaserGame ref={phaserRef} currentActiveScene={undefined} />
+        <PhaserGame ref={phaserRef} currentActiveScene={undefined} /> */}
+        <GameScreen />
       </ThemeProvider>
     </div>
   );
