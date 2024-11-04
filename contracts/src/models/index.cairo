@@ -1,6 +1,6 @@
 use starknet::ContractAddress;
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
 pub struct Player {
     #[key]
@@ -12,7 +12,7 @@ pub struct Player {
     pub character_class: u8,
 }
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
 pub struct Position {
     #[key]
@@ -20,7 +20,7 @@ pub struct Position {
     pub vec: Vec2,
 }
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
 pub struct Equipment {
     #[key]
@@ -30,7 +30,7 @@ pub struct Equipment {
     pub accessory: u32,
 }
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
 pub struct Skills {
     #[key]
@@ -39,7 +39,7 @@ pub struct Skills {
     pub cooldowns: Array<u32>,
 }
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
 pub struct Enemy {
     #[key]
@@ -50,9 +50,9 @@ pub struct Enemy {
     pub spawn_time: u64,
 }
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
-pub struct GameState {
+pub struct Game {
     #[key]
     pub game_id: u32,
     pub wave: u32,
@@ -61,7 +61,7 @@ pub struct GameState {
     pub is_active: bool,
 }
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
 pub struct Upgrades {
     #[key]
@@ -70,7 +70,7 @@ pub struct Upgrades {
     pub upgrade_levels: Array<u8>,
 }
 
-#[derive(Copy, Drop, Serde, Debug)]
+#[derive(Clone, Drop, Serde)]
 #[dojo::model]
 pub struct Movement {
     #[key]
